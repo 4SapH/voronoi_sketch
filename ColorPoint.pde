@@ -8,11 +8,18 @@ class ColorPoint {
   }
   
   ColorPoint() {
-   
+    
   }
   
   void show() {
     stroke(c);
     point(pos.x,pos.y);
+  }
+  
+  void save() {
+    
+  }
+  
+  void load() {
   }
 }
